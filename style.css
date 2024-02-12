@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Noto+Kufi+Arabic&family=Tajawal&display=swap');
+*{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    text-decoration: rtl;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header{
+    position: fixed; 
+    width: 100%;
+    background-color: #8b795e;
+    height: 100px;
+    margin-top: 0px;
+    z-index: 999;
+}
+.header{
+    position: relative;
+    margin-top: 0px;
+   
+}
+
+.home{
+    position: absolute;
+    right: 30px;
+    width: 100px;
+    border: 0px;
+    background-color: #8b795e;
+    font-size: 16px;
+    color: white;
+    
+}
+
+.visit{
+    position: absolute;
+    right: 130px;
+    width: 100px;
+    border: 0px;
+    background-color: #8b795e;
+    font-size: 16px;
+    color: white;
+}
+
+.galery{
+    position: absolute;
+    right: 230px;
+    width: 100px;
+    border: 0px;
+    background-color: #8b795e;
+    font-size: 16px;
+    color: white;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+}
+.logo{
+    position: relative;
+    width: 300px;
+    top: 100px;
+
+}
+.about{
+    position: relative;
+    top: 100px;
+    color: #0b55d2;
+}
+.about-p{
+    position: relative;
+    top: 100px;
+    width: 25%;
+    
+    margin-left: 37%;
+}
+.home-img{
+    position: relative;
+    top: 150px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+@media only screen and (width:400px){
+    .home-img{
+        width: 100%;
+    }
+}
+.footer-index-html{
+    position: relative;
+    top: 120px;
+    background-color: #8b795e;
+    height: 120px;
+    margin-top: 20px;
+}
+.fa-facebook{
+    font-size: 40px;
+    margin-top: 20px;
+    color: #0b55d2;
+}
+.facebook{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0b55d2;
+}
+.sec-title{
+    position: relative;
+    top: 120px;
+}
+.sec-floor{
+    position: relative;
+    top: 150px;
+    margin-bottom: 50px;
+}
+.sec-floor-p{
+    position: relative;
+    top: 120px;
+    margin-bottom: 50px;
+    width: 50%;
+    margin-left: 25%;
+}
+.trd-floor{
+    position: relative;
+    top: 150px;
+
+}
+.trd-floor-p{
+    position: relative;
+    top: 150px;
+    margin-bottom: 50px;
+    width: 50%;
+    margin-left: 25%;
+}
+.footer-visit-html{
+    position: relative;
+    top: 330px;
+    background-color: #8b795e;
+    height: 120px;
+    margin-top: 20px;
+}
+.contact-us{
+    position: relative;
+    top: 200px;
+
+}
+.visit-time{
+    position: relative;
+    top: 220px;
+
+}
+.visit-time-p{
+    position: relative;
+    top: 240px;
+}
+.morn-time{
+    position: relative;
+    top: 250px;
+    
+}
+.morn-time-p{
+    position: relative;
+    top: 260px;
+}
+.card-cost{
+    position: relative;
+    top: 270px;
+
+}
+.card-cost-p{
+    position: relative;
+    top: 270px;
+}
+.contact-data{
+    position: relative;
+    top: 280px;
+
+}
+.contact-data-p{
+    position: relative;
+    top: 280px;
+
+}
+.place{
+    position: relative;
+    top: 290px;
+}
+.place-p{
+    position: relative;
+    top: 290px;
+}
+.map{
+    position: relative;
+    top: 290px;
+}
+.galery-img{
+    position: relative;
+    top: 120px;
+    width: 300px;
+    height: 180px;
+}
